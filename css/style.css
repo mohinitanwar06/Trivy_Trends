@@ -44,6 +44,7 @@ padding-top:8px;
     padding-top:10px;
     margin:20px!important;
     font-size:1.5em!important;
+    cursor: pointer;
 }
 
 
@@ -90,6 +91,8 @@ padding-top:8px;
     padding-bottom:20px;
     font-family:var(--gugi);
     color:var(--primary-color);
+    cursor: pointer;
+
    
 
 }
@@ -121,7 +124,8 @@ padding-top:8px;
     color:var(--primary-color);
     font-style:var(--gugi);
     padding-top:13px;
-    padding-bottom: 13px;;
+    padding-bottom: 13px;
+    cursor: pointer;
 
 }
 
