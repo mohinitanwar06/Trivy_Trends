@@ -120,6 +120,7 @@ padding-top:8px;
     
     
 }
+
 .brand{
 
     font-size:1.5em;
@@ -183,3 +184,20 @@ header .site-title{
 ul.navbar-nav{
 margin-left:10.9rem!important;
 }
+
+@media only screen and (max-width: 600px) {
+    .border{
+        border:none!important;
+    }
+    .resp1{
+        position: absolute;
+    margin-left: 120px;
+    }
+    .resp2{
+        position: absolute;
+        margin-left: 170px;
+    }
+    .titlechange{
+        padding-top: 15px;
+    }
+  }
