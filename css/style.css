@@ -5,7 +5,7 @@
 
 :root{
 
-    --ligth-gray:#2b3032a1;
+    --light-gray:#2b3032a1;
     
     --primary-color:#2ec1ac;
     --border:#2b303218;
@@ -14,6 +14,59 @@
     --gugi:"Gugi",cursive;
     --sofia:"Sofia",cursive;
 }
+
+.nav-link, .dropdown-item {
+    color: black !important;
+
+}
+.nav-link:hover, .dropdown-item:hover {
+    color: var(--light-gray) !important;
+}
+
+
+.footer-font{
+    font-size:0.3 em;
+    color:black;
+    font-weight:bold;
+}
+.footer-first{
+    cursor: pointer;
+    line-height:1;
+    padding-top:13px;
+}
+
+.search{
+    
+    border-radius: 4px;
+    width:70%;
+
+}
+.searchm{
+    position: relative;
+    left:130px;
+    width: 35%;
+}
+
+.corner{
+    text-align:center;
+    position:relative;
+    margin-right:10px;
+    cursor: pointer;
+    
+}
+.sizy{
+    font-size:0.8em !important;
+}
+
+
+.footer{
+    background-color:var(--primary-color);
+    color:white;
+    font-family:var(--roboto);
+}
+.navbar{
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+    }
 
 .banner{
     /* border-radius: 30%; */
