@@ -96,7 +96,7 @@ position:relative;
     display:flex;
 }
 .collect{
-    font-size:1.5em;
+    
     color:var(--primary-color);
     padding-top:10px;
     margin:20px!important;
@@ -260,30 +260,42 @@ margin-left:10.9rem!important;
 
     .imgsize{
 
-        height:150px!important;
-        width:30%;
-        border-radius:20%;
+        height:180px!important;
+        width:40%;
+        border-radius:50%;
     } 
 
     .imgsize2{
-        height:150px;
-        width:30%;
+        height:170px;
+        width:35%;
        
     }
 
     .carousel-control-next-icon:after
 {
-  content: '>>';
+  content: '>';
   font-size: 55px;
   color:var(--primary-color);
   
   position:absolute;
   right:1px;
 }
-
+.brand{
+    font-size:1.2em;
+}
+.collect{
+    font-size:1.2em!important;
+}
   
     
-   
+.nav-link{
+    color: black !important;
+    align-items: center;
+
+}
+.collections{
+    font-size:1.8em;
+}
     
 
     button.navbar-toggler{
@@ -297,8 +309,8 @@ margin-left:10.9rem!important;
 
     .searchm{
        position: absolute;
-       right:80px;
-       top:20px;
+       right:70px;
+       top:15px;
        cursor: pointer;
 
     }
