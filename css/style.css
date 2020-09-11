@@ -15,13 +15,15 @@
     --sofia:"Sofia",cursive;
 }
 
-.nav-link, .dropdown-item {
+.nav-link{
     color: black !important;
 
 }
-.nav-link:hover, .dropdown-item:hover {
+.nav-link:hover{
     color: var(--light-gray) !important;
 }
+
+/* .dropdown-item:hover */
 
 
 .footer-font{
@@ -42,9 +44,8 @@
 
 }
 .searchm{
-    position: relative;
-    left:130px;
-    width: 35%;
+   
+   width:30%;
 }
 
 .corner{
@@ -87,6 +88,9 @@ color:white;
 .icon{
 padding-right:10px;
 padding-top:8px;
+position:relative;
+ left:70px;
+  bottom:3px;
 }
 .trivyicon{
     display:flex;
@@ -130,7 +134,7 @@ padding-top:8px;
   margin-left:10px;
   margin-right:240px;
  */
-
+ .profile{position:relative; right:40px; top:5px;}
 
 .carousel-control-prev-icon:after
 {
@@ -152,19 +156,21 @@ padding-top:8px;
 }
 
 
+
+
 .spacee{
     padding:50px;
 }
 .imgsize{
 
     height:300px;
-    width:auto;
+    width:300px;
     border-radius:50%;
 } 
 .imgsize2{
 
     height:400px;
-    width:auto;
+    width:400px;
     border-radius: 15%;
     transition: all 0.3s linear;
 }
@@ -239,18 +245,62 @@ margin-left:10.9rem!important;
 }
 
 @media only screen and (max-width: 600px) {
-    .border{
-        border:none!important;
+
+    .banner{
+        height:500px !important;  
     }
-    .resp1{
-        position: absolute;
-    margin-left: 120px;
+    .profile{
+      
+    display:flex!important;
+    flex-direction: row;
+    position:absolute;
+
+        
     }
-    .resp2{
-        position: absolute;
-        margin-left: 170px;
+
+    .imgsize{
+
+        height:150px!important;
+        width:30%;
+        border-radius:20%;
+    } 
+
+    .imgsize2{
+        height:150px;
+        width:30%;
+       
     }
-    .titlechange{
-        padding-top: 15px;
+
+    .carousel-control-next-icon:after
+{
+  content: '>>';
+  font-size: 55px;
+  color:var(--primary-color);
+  
+  position:absolute;
+  right:1px;
+}
+
+  
+    
+   
+    
+
+    button.navbar-toggler{
+     border-color:black !important;
+     position:absolute;
+     top:20px;
+     }
+    .search{
+        display:none;
     }
+
+    .searchm{
+       position: absolute;
+       right:80px;
+       top:20px;
+       cursor: pointer;
+
+    }
+    /* wishlist */
   }
