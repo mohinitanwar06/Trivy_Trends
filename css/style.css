@@ -21,10 +21,32 @@
 }
 .nav-link:hover{
     color: var(--light-gray) !important;
+    
+
 }
+.drop{
+    display:none;
+
+}
+
 
 /* .dropdown-item:hover */
 
+.drop{
+    display:none;
+    position: absolute;
+    background-color:white;
+    min-width: 158px;
+    z-index:1;
+}
+.drop a:hover{
+    background-color:lightgray;
+    color: #fff;
+}
+
+.right-menu:hover .drop{
+    display:block;
+}
 
 .footer-font{
     font-size:0.3 em;
