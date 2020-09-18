@@ -2,6 +2,10 @@ html,
 body {
   height: 100%;
 }
+.btn-primary{
+  background-color:#1b262c;
+  border-color: #1b262c;
+}
 
 body {
   display: -ms-flexbox;
